@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Source Code Variable";
+    src: url("fonts/SourceCodeVariable-Roman.ttf") format("truetype");
+    font-family: 'Source Sans Variable';
+    src: url('fonts/SourceSansVariable-Roman.ttf') format('truetype');
+    font-family: 'Roboto Light';
+    src: url('fonts/Roboto-Light.ttf') format('truetype');
+}
+
+h1, h2, h3, nav {
+    font-family: "Source Sans Variable";
+    font-weight: normal;
+    color: #335157;    
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+h3 {
+    font-family: "Source Code Variable";
+    font-weight: normal;
+    font-size: medium;
+    margin-top: 20px;
+    color: rgb(0, 240, 200);
+    text-align: left;
+    margin: 15px 20px 20px 0px;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    font-family: "Roboto Light";
+    font-weight: normal;
+}
+
+.motto {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.motto h1 {
+    color: white;
+}
+
+.immersive-card h4, .full-time-text  {
+    color: rgb(0, 240, 200); 
+}
+
+.flexible-card h4, p {
+    color: rgb(51, 81, 87);
+}
+
+.graduate-gallery h4 {
+    color: rgb(51, 81, 87);
+}
+
+.stats-wrapper p {
+    color: rgb(51, 81, 87);
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px;
+}
+
+.stats-wrapper footer {
+    color:  rgb(55, 142, 131);
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+}
+
+.heading {
+    padding: 40px 20px 20px;
+}
+
+.heading p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: x-large;
+    font-weight: bold;
+    color:  rgb(0, 240, 200);
+}
+
+.options h2 {
+    color: white;
+}

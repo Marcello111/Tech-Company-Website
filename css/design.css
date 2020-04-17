@@ -1,0 +1,9 @@
+/*Atoms*/
+@import 'typography.css';
+@import 'buttons-inputs.css';
+@import 'logos-icons.css';
+
+
+/*Organism*/
+@import 'header_footer.css';
+@import 'card.css';

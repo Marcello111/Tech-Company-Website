@@ -1,0 +1,134 @@
+#page {
+    width: 1200px;
+    margin: 0px auto;
+    text-align: center;  
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+	padding: 5px;
+}
+
+header img {
+    padding: 15px;
+    width: 12%;
+    height: 12%;
+}
+
+li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: small;
+}
+
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+/*Hero*/
+
+.hero {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.main-text {
+    padding: 8px;
+    margin-top: 0px;
+    background-color: rgb(55,142,131);
+    color: white;
+    text-align: center;
+}
+
+h4 {
+  color: grey;
+}
+
+/*Footer*/
+
+.footer-wrapper {
+    max-width: 1200px;
+    display: flex;
+    background-color: rgb(51, 81, 87);
+    margin: 0px auto;
+}
+
+.footer-wrapper p {
+    margin-bottom: 0px;
+}
+
+.footer-logo p, .footer-social p, .footer-learn p, .footer-hire p, .footer-information p, .footer-newsletter p {
+    text-align: left;  
+}
+
+.footer-social, .footer-learn, .footer-hire, .footer-information, .footer-newsletter, .footer-arrow {
+    width: 11%;
+    padding: 25px 15px 15px 15px;
+}
+
+.footer-social, .footer-learn, .footer-hire, .footer-information, .footer-newsletter {
+   color: white;
+   font-size: x-small;
+   text-align: left;
+}
+
+.footer-arrow {
+    width: 5%;
+    text-align: center;
+} 
+
+.footer-arrow p {
+    text-align: center;
+    margin-top: 180px;
+    font-size: 60px;
+    color: rgb(0, 240, 200);
+}
+
+.footer-logo {
+    width: 45%;
+    text-align: left;
+    padding: 35px 10px 20px 70px;
+}
+
+.footer-logo h4 {
+    margin: 10px;
+    color: white;
+}
+
+.logo-text {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.logo-text p {
+    text-align: left;
+    font-size: xx-small;
+    color: white;
+}
+
+h6 {
+    color: rgb(0, 240, 200);
+    text-align: left;
+    margin: 15px 20px 20px 0px;
+}
+
+.socials {
+    margin-left: -5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+   
+a:visited {
+    color: unset;
+}
+
+footer p {
+    margin-top: 5px;
+}
